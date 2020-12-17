@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cam"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="camera" />
+        <item
+            android:id="@+id/nav_cal"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="calculator" />
+        <item
+            android:id="@+id/nav_calen"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="calendar" />
+    </group>
+</menu>
